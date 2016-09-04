@@ -3,7 +3,7 @@
 int factorial(int n){
 	while(n<0)
 	{
-		printf("Re-enter a number");
+		printf("Re-enter a positive number");
 		scanf("%d",&n);
 	}
 
