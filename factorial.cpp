@@ -3,13 +3,12 @@
 int factorial(int n){
 	while(n<0)
 	{
-		printf("Re-enter a positive number for factorial calculation");
+		printf("Enter a positive number : ");
 		scanf("%d",&n);
 	}
-
+	// IronHide14 : Yo mofos
 	if(n!=1){
 	return(n * factorial(n-1));
     	}
   	  else return 1;
-
 }
