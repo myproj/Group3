@@ -6,7 +6,7 @@ int factorial(int n){
 		printf("Enter a positive number : ");
 		scanf("%d",&n);
 	}
-
+	// IronHide14 : Yo mofos
 	if(n!=1){
 	return(n * factorial(n-1));
     	}
