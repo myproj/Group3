@@ -4,7 +4,7 @@
 int factorial(int n){
 	while(n<0)
 	{
-		printf("Re-enter a password");
+		printf("Re-enter a number");
 		scanf("%d",&n);
 	}
 =======
