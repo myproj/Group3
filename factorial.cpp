@@ -1,12 +1,9 @@
+// IronHide14 : You're late
 #include "functions.h"
 
 int factorial(int n){
-	while(n<0)
-	{
-		printf("Enter a positive number : ");
-		scanf("%d",&n);
-	}
-
+	if(n<0) return -1;
+	if(n==0) return 1;
 	if(n!=1){
 	return(n * factorial(n-1));
     	}
