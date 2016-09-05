@@ -3,8 +3,8 @@
 int factorial(int n){
 	while(n<0)
 	{
-		printf("Enter a positive number : ");
-		scanf("%d",&n);
+		cout<<"Enter a positive number : ";
+		cin>>n;
 	}
 	// IronHide14 : Yo mofos
 	if(n!=1){
