@@ -1,12 +1,11 @@
 #include "functions.h"
 
 int factorial(int n){
-	while(n<0)
+	if(n<0)
 	{
-		cout<<"Enter a positive number : ";
-		cin>>n;
+		printf("Error Code -1 : Negative Number.");
+		return;
 	}
-	// IronHide14 : Yo mofos
 	if(n!=1){
 	return(n * factorial(n-1));
     	}
