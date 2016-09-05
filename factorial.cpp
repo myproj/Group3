@@ -1,10 +1,10 @@
 #include "functions.h"
 
 int factorial(int n){
-	while(n<0)
+	if(n<0)
 	{
-		printf("Enter a positive number : ");
-		scanf("%d",&n);
+		printf("Error Code -1 : Negative Number.");
+		return;
 	}
 	// IronHide14 : Yo mofos
 	if(n!=1){
