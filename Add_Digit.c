@@ -1,3 +1,4 @@
+// Gives sum of input integer
 #include<stdio.h>
  
 int main()
